@@ -1,0 +1,31 @@
+{
+    "name": "pith/quickstart",
+    "description": "A skeleton PHP website using Pith",
+    "require": {
+        "php": "^7.1",
+        "php-di/php-di": "^6",
+        "monolog/monolog": "^1.24",
+        "pith/framework": "^0.9",
+        "ikm/roman-numeral-utility": "^0.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pith\\QuickStart\\App\\": [
+                "quickstart-app/"
+            ],
+            "Pith\\QuickStart\\PagesModule\\": [
+                "quickstart-pages-module/"
+            ]
+        }
+    }
+}
