@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Format -->
+        <meta charset="UTF-8">
+
+        <!-- Title -->
+        <title>Pith Quickstart</title>
+
+        <!-- Library Styles -->
+
+        <!-- Library Customization Styles -->
+
+        <!-- App Styles -->
+
+        <!-- Library Scripts -->
+
+        <!-- Library Customization Scripts -->
+
+        <!-- App Scripts -->
+    </head>
+    <body>
+        <div style="position: absolute; top: 0px; left: 0px; height: 15%; width: 100%; background-color: #679469;">
+            <?php echo $this->app->runPartial('/partial/quickstart-banner'); ?>
+        </div>
+        <div style="position: absolute; top: 15%; left: 0px; background-color: aliceblue; width: 100%;">
+            <div style="margin: 4em 3em 3em 3em;">
+                <div>
+                    <?php echo $this->app->runContent($this->content_route); ?>
+                </div>
+
+                <br/>
+                <br/>
+            </div>
+            <div style="text-align: center;">
+                <?php echo $this->app->runPartial('/partial/quickstart-footer'); ?>
+            </div>
+        </div>
+
+    </body>
+</html>
