@@ -3,9 +3,9 @@
     "description": "A skeleton PHP website using Pith",
     "require": {
         "php": "^7.1",
+        "pith/framework": "^0.9",
         "php-di/php-di": "^6",
         "monolog/monolog": "^1.24",
-        "pith/framework": "^0.9",
         "ikm/roman-numeral-utility": "^0.1"
     },
     "license": "MIT",
@@ -20,11 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Pith\\QuickStart\\App\\": [
+            "Pith\\Quickstart\\": [
                 "quickstart-app/"
             ],
-            "Pith\\QuickStart\\PagesModule\\": [
-                "quickstart-pages-module/"
+            "Pith\\Quickstart\\QuickstartPagesModule\\": [
+                "quickstart-pages-module/",
+                "quickstart-pages-module/controllers"
             ]
         }
     }
