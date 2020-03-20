@@ -3,7 +3,7 @@
     "description": "A skeleton PHP website using Pith",
     "require": {
         "php": "^7.1",
-        "pith/framework": "^0.9",
+        "pith/framework": "^0.12",
         "php-di/php-di": "^6",
         "monolog/monolog": "^1.24",
         "ikm/roman-numeral-utility": "^0.1"
