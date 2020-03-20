@@ -26,6 +26,8 @@ class QuickstartConfig
 
         // Profile:
         $profile->name          = 'Example Config Profile';
+        $profile->error_401_url = '/';
+        $profile->error_403_url = '/';
         $profile->error_404_url = '/404';
         $profile->error_501_url = '/501';
 
